@@ -1,13 +1,7 @@
-// import matchers from '../Character';
+import Character from '../Character';
 
-// test('should sort array characters', () => {
-//   const received = matchers([{ name: 'мечник', health: 10 },
-//     { name: 'маг', health: 100 },
-//     { name: 'лучник', health: 80 }]);
-
-//   const expected = [{ name: 'маг', health: 100 },
-//     { name: 'лучник', health: 80 },
-//     { name: 'мечник', health: 10 }];
-
-//   expect(received).toEqual(expected);
-// });
+test('some test', () => {
+  const received = new Character('John');
+  const expected = { name: 'John', health: 100, level: 1 };
+  expect(received).toEqual(expected);
+});
