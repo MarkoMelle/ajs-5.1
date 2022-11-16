@@ -1,0 +1,1 @@
+[![ajs-5.1](https://github.com/MarkoMelle/ajs-5.1/actions/workflows/main.yml/badge.svg)](https://github.com/MarkoMelle/ajs-5.1/actions/workflows/main.yml)

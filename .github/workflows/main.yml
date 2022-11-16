@@ -30,7 +30,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITACTION }}
+          GITHUB_TOKEN: ${{ secrets.KEY }}
           BRANCH: gh-pages
           FOLDER: dist
           CLEAN: true
